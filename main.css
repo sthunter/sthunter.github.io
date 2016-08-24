@@ -16,13 +16,14 @@ background: -ms-linear-gradient(left, rgba(21,26,16,1) 0%, rgba(71,77,66,1) 100%
 background: linear-gradient(to right, rgba(21,26,16,1) 0%, rgba(71,77,66,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#151a10', endColorstr='#474d42', GradientType=1 );tr='#1a2610', endColorstr='#474d42', GradientType=1 );*/
 
-/*background: #c8d7dc;
-background: -moz-linear-gradient(left, #c8d7dc 0%, #e3eaed 63%, #f2f5f6 100%);
-background: -webkit-linear-gradient(left, #c8d7dc 0%,#e3eaed 63%,#f2f5f6 100%);
-background: linear-gradient(to right, #c8d7dc 0%,#e3eaed 63%,#f2f5f6 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8d7dc', endColorstr='#f2f5f6',GradientType=1 );*/
+background: #4297ed;
+background: -moz-linear-gradient(left,  #4297ed 0%, #62e1e5 100%);
+background: -webkit-linear-gradient(left,  #4297ed 0%,#62e1e5 100%);
+background: linear-gradient(to right,  #4297ed 0%,#62e1e5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4297ed', endColorstr='#62e1e5',GradientType=1 );
 
-background: rgb(25, 25, 25)
+
+/*background: rgb(25, 25, 25)*/
 
 }
 
@@ -54,6 +55,13 @@ a:visited {
     }
 }
 
+#name {
+	font-family: 'Roboto Mono';
+  font-size: 2rem;
+	color:rgb(225, 225, 225);
+	text-decoration: none;	
+}
+
 ul {
 	margin-top: 50px;
 }
@@ -68,6 +76,4 @@ li {
 	position: center;
 	font-color: black;
 	padding: 30px;
-
-
 }
